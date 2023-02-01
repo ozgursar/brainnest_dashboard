@@ -1,4 +1,10 @@
 @import "style-icons.css";
+@import "style-aside.css";
+@import "style-header.css";
+@import "style-content.css";
+@import "style-widgets-trending.css";
+@import "style-widgets-announcements.css";
+@import "style-widgets-projects.css";
 
 :root {
   --accent: #596D48;
