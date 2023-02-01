@@ -1,0 +1,44 @@
+.header-container{
+    border: 3px solid green;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.top-bar{
+    border: 2px solid red;
+    margin: 5px;
+    display:grid;
+    grid-template-columns: 30px 2fr 30px 60px 1fr;
+    grid-template-rows:1fr;
+}
+
+#search{
+    border-radius: 20px;
+    width: 35vw; 
+    border : none;
+    background:rgba(226,232,240,255);
+    height: 30px;
+    margin-top: 13px;
+    place-items: left;
+}
+
+.top-bar .imgs{
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+img3-div{
+    margin: auto;
+    display: block;
+}
+
+.bottom-bar{
+    border: 2px solid blue;
+    margin: 5px;
+}
+
+
+.username-div{
+    text-align: center;
+}
+

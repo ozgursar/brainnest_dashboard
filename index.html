@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="../images/favicon.png">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="'./css/style-header.css">
   <script src="./js/script.js" defer></script>
   <title>Dashboard</title>
 </head>
@@ -14,7 +15,27 @@
     <!-- Topbar (Search, notifications, avatar and user name lastname) -->
     <!-- Bottom bar (Avatar, name, new - upload - share buttons) -->
     <!-- Must have grid layout -->
-    HEADER
+    <div class="header-container">
+      <div class="top-bar">
+          <div class="img1-div">
+            <img src="./images/magnify.svg" width="20px" alt="magnifier icon" class="imgs img1">
+          </div>
+          <div class="search-bar-div"><input type="search" name="search" id="search"></div>
+          <div class="img2-div">
+            <img src="./images/bell-ring-outline.svg" width="20px" alt ="notification icon" class="imgs img2">
+          </div>
+          <div class="img3-div">
+            <img src="./images/Red Gradient Profile Photo Instagram Post.svg" height="60px" alt="profile-picture">
+          </div>
+          <div class="username-div">
+            <h4> First Name - Last Name</h4>
+          </div>
+          
+      </div>
+      <div class="bottom-bar">
+        <p>this is the bottom bar</p>
+      </div>
+    </div>
   </header>
   <aside id="aside">
     <nav>
@@ -27,6 +48,7 @@
       <!-- Projects, announcements, trending widgets -->
       <!-- Must have grid layout -->
       MAIN
+      <div><i class="icon-home"></i> Icon test</div>
   </main>
 </body>
 </html>
