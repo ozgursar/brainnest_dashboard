@@ -1,13 +1,13 @@
 .header-container{
     border: 3px solid green;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 70px 70px;
 }
 .top-bar{
     border: 2px solid red;
     margin: 5px;
     display:grid;
-    grid-template-columns: 30px 2fr 30px 60px 1fr;
+    grid-template-columns: 40px 2fr 40px 60px 1fr;
     grid-template-rows:1fr;
 }
 
@@ -31,14 +31,22 @@ img3-div{
     margin: auto;
     display: block;
 }
-
-.bottom-bar{
-    border: 2px solid blue;
-    margin: 5px;
-}
-
-
 .username-div{
     text-align: center;
 }
 
+.bottom-bar{
+    display: grid;
+    grid-template-columns: 80px 2fr 1fr;
+}
+
+
+.blue-btn{
+    border-radius: 30px;
+    width: 100px;
+    border: none;
+    padding: 8px;
+    background-color: #1992D4;
+    color: #fff;
+    font-weight: 200;
+}
