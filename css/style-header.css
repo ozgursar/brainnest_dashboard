@@ -35,8 +35,13 @@
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 80px 2fr 1fr;
+  align-items:center;
 }
 
+.img3-bb-div img {
+  display: block;
+  margin: 0 auto;
+}
 
 .blue-btn {
   border-radius: 30px;
@@ -46,12 +51,11 @@
   background-color: #1992D4;
   color: #fff;
   font-weight: 200;
-  margin: 20px;
+  margin: 0 20px;
 }
 
 
 .buttons-div {
-  /* border: 3px solid rgb(71, 125, 217); */
   display: flex;
   justify-content: center;
   align-items: center;
