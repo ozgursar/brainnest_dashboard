@@ -34,6 +34,9 @@
     margin: 15 auto;
     margin-top: 18px;
 }
+.icon-search , .icon-bell{
+    font-size: 23px;
+}
 
 .img3-div {
     margin: auto;
