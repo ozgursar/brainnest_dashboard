@@ -52,8 +52,9 @@ body {
 #header {
   grid-area: header;
   background-color: var(--header-background);
-  box-shadow: 1px 3px 5px #dedede;
+  box-shadow: 1px 3px 5px #ccc;
   padding: 15px;
+  z-index:1;
 }
 
 #main {
