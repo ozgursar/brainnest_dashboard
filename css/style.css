@@ -12,6 +12,12 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+}
+
 :root {
   --accent: #596D48;
   --body-background: #f5f5f5;
