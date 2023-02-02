@@ -81,6 +81,15 @@ h1 {
   margin: 5px;
 }
 
+h1 {
+  font-size: 1.3rem;
+}
+
 h2 {
+  font-size: 1rem;
   margin-top: 18px;
+}
+
+h3 {
+  font-size: 0.9rem;
 }
