@@ -67,12 +67,10 @@
 
 #announcements{
   grid-area: announcements;
-  border: 2px solid #000;
   padding: 15px;
 }
 
 #trending{
   grid-area: trending;
-  border: 2px solid #000;
   padding: 15px;
 }
