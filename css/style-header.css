@@ -1,6 +1,6 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(ArianaVioleta-dz2K.ttf);
+    font-family: myFont;
+    src: url(/fonts/Montserrat-Regular.ttf);
 }
 
 .header-container {
@@ -25,6 +25,8 @@
     height: 30px;
     margin-top: 13px;
     place-items: left;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .top-bar .imgs {
@@ -40,6 +42,7 @@
 
 .username-div {
     text-align: center;
+    font-family: 'myFont';
 }
 
 .bottom-bar {
@@ -69,7 +72,7 @@
 }
 
 .username-bb-div {
-    /* border: 3px solid rgb(217, 71, 180); */
+    font-family: 'myFont';
 }
 
 .img3-bb-div {
