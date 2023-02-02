@@ -14,53 +14,181 @@
     <!-- Topbar (Search, notifications, avatar and user name lastname) -->
     <!-- Bottom bar (Avatar, name, new - upload - share buttons) -->
     <!-- Must have grid layout -->
-    HEADER
-  </header>
-  <aside id="aside">
-    <nav>    
-      <div class="sidebar">
-        <div class="sidebar-header">Dashboard</div>
-        <div class="sidebar-section">
-          <div class="section-item">
-            <i class="fas fa-home"></i>
-            <p>Home</p>
+    <div class="header-container">
+      <div class="top-bar">
+        <div class="img1-div">
+          <i class="imgs icon-search"></i>
+        </div>
+        <div class="search-bar-div"><input type="search" name="search" id="search"></div>
+        <div class="img2-div">
+          <i class="imgs icon-bell"></i>
+        </div>
+        <div class="img3-div">
+          <img src="./images/Red Gradient Profile Photo Instagram Post.svg" height="60px" alt="profile-picture">
+        </div>
+        <div class="username-div">
+          <h2>Morgan Oakley</h2>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <div class="img3-bb-div">
+          <img src="./images/Red Gradient Profile Photo Instagram Post.svg" height="60px" alt="profile-picture">
+        </div>
+        <div class="username-bb-div">
+          <div>
+            <h3>Hi there,</h3>
           </div>
-          <div class="section-item">
-            <i class="fas fa-user"></i>
-            <p>Profile</p>
-          </div>
-          <div class="section-item">
-            <i class="fas fa-envelope"></i>
-            <p>Message</p>
-          </div>
-          <div class="section-item">
-            <i class="fas fa-history"></i>
-            <p>History</p>
-          </div>
-          <div class="section-item">
-            <i class="fas fa-tasks"></i>
-            <p>Tasks</p>
-          </div>
-          <div class="section-item">
-            <i class="fas fa-users"></i>
-            <p>Communities</p>
-          </div>
-          <div class="section-item">
-            <i class="fas fa-cog"></i>
-            <p>Settings</p>
-          </div>
-          <div class="section-item">
-            <i class="fas fa-support"></i>
-            <p>Support</p>
+          <div>
+            <h1>Morgan Oakley (@morgan)</h1>
           </div>
         </div>
-      </div>      
+        <div class="buttons-div">
+          <button type="button" class="blue-btn">New</button>
+          <button type="button" class="blue-btn">Upload</button>
+          <button type="button" class="blue-btn">Share</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside id="aside">
+    <nav>
+      <!-- Navigation icons and links here -->
+      <!-- Must have grid layout -->
+      <div class="sidebar">
+        <h1 class="sidebar-title">Dashboard</h1>
+        <ul class="sidebar-list">
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-home"></span>
+              Home
+            </button>
+          </li>
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-profile"></span>
+              Profile
+            </button>
+          </li>
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-message"></span>
+              Message
+            </button>
+          </li>
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-history"></span>
+              History
+            </button>
+          </li>
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-tasks"></span>
+              Tasks
+            </button>
+          </li>
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-communities"></span>
+              Communities
+            </button>
+          </li>
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-settings"></span>
+              Settings
+            </button>
+          </li>
+          <li class="sidebar-item">
+            <button class="sidebar-button">
+              <span class="icon icon-support"></span>
+              Support
+            </button>
+          </li>
+        </ul>
+      </div>            
     </nav>
   </aside>
   <main id="main">
       <!-- Projects, announcements, trending widgets -->
       <!-- Must have grid layout -->
-      MAIN
+      <section id="projects">
+        <h2>Your Projects</h2>
+        <div class="projects-container">
+          <article class="project">
+            <div class="project-content">
+              <h4>Super Cool Project</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ex nulla ipsam corporis tempore expedita possimus suscipit perspiciatis? Eius nihil ut explicabo porro voluptatem repudiandae nemo cum aliquid alias earum.</p>
+            </div>
+            <div class="project-footer">
+              <a href="#"><i class="icon-star"></i></a>
+              <a href="#"><i class="icon-eye"></i></a>
+              <a href="#"><i class="icon-branch"></i></a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-content">
+              <h4>Less Cool Project</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat a at consectetur consequuntur obcaecati dignissimos esse ipsam voluptatem, inventore et deserunt placeat labore assumenda iure mollitia nulla unde repudiandae quo!</p>
+            </div>
+            <div class="project-footer">
+              <a href="#"><i class="icon-star"></i></a>
+              <a href="#"><i class="icon-eye"></i></a>
+              <a href="#"><i class="icon-branch"></i></a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-content">
+              <h4>Impossible App</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laboriosam. Excepturi id, velit nam doloremque voluptas.</p>
+            </div>
+            <div class="project-footer">
+              <a href="#"><i class="icon-star"></i></a>
+              <a href="#"><i class="icon-eye"></i></a>
+              <a href="#"><i class="icon-branch"></i></a>
+            </div>
+          </article>
+          <article class="project">
+            <div class=""project-content>
+              <h4>Easy Peasy App</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laboriosam. Excepturi id, velit nam doloremque voluptas.</p>
+            </div>
+            <div class="project-footer">
+              <a href="#"><i class="icon-star"></i></a>
+              <a href="#"><i class="icon-eye"></i></a>
+              <a href="#"><i class="icon-branch"></i></a>
+            </div>
+          </article>
+          <article class="project">
+            <div class=""project-content>
+              <h4>Ad Blocker</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, corrupti? Consequuntur accusamus quas, quae optio doloribus similique illo blanditiis ut earum eos excepturi officiis aliquid iusto neque id! Ducimus, explicabo.</p>
+            </div>
+            <div class="project-footer">
+              <a href="#"><i class="icon-star"></i></a>
+              <a href="#"><i class="icon-eye"></i></a>
+              <a href="#"><i class="icon-branch"></i></a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-content">
+              <h4>Money Maker</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eos nobis voluptas voluptate eius ea! Dignissimos laboriosam sint voluptate perspiciatis eius ad, harum unde consequatur aperiam possimus quaerat nam doloribus.</p>
+            </div>
+            <div class="project-footer">
+              <a href="#"><i class="icon-star"></i></a>
+              <a href="#"><i class="icon-eye"></i></a>
+              <a href="#"><i class="icon-branch"></i></a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="announcements">
+        <h2>Announcements</h2>
+      </section>
+      <section id="trending">
+        <h2>Trending</h2>
+      </section>
   </main>
 </body>
 </html>

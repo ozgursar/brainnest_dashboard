@@ -1,0 +1,81 @@
+.header-container {
+  display: grid;
+  grid-template-rows: 70px 84px;
+}
+
+.top-bar {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 40px 2fr 40px 60px auto;
+  grid-template-rows: 1fr;
+  gap: 5px;
+  align-items:center;
+}
+
+#search {
+  border-radius: 20px;
+  width: 35vw;
+  border: none;
+  background: rgba(226, 232, 240, 255);
+  height: 30px;
+  place-items: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.icon-search , .icon-bell{
+  font-size: 23px;
+}
+
+.username-div {
+  text-align: center;
+}
+
+.bottom-bar {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 80px 2fr 1fr;
+  align-items:center;
+}
+
+.img3-bb-div img {
+  display: block;
+  margin: 0 auto;
+}
+
+.blue-btn {
+  border-radius: 30px;
+  width: 100px;
+  border: none;
+  padding: 8px;
+  background-color: #1992D4;
+  color: #fff;
+  font-weight: 200;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2,
+h3,
+h1 {
+  margin: 5px;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
