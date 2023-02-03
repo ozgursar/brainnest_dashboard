@@ -1,15 +1,21 @@
 .header-container {
   display: grid;
   grid-template-rows: 70px 84px;
+  background-color: var(--header-background);
+  padding: 15px;
+  box-shadow: 1px 3px 3px #ccc;
+  position: fixed;
+  top: 0;
+  z-index: 9;
 }
 
 .top-bar {
-  margin: 5px;
   display: grid;
   grid-template-columns: 40px 2fr 40px 60px auto;
   grid-template-rows: 1fr;
   gap: 5px;
   align-items:center;
+  margin: 5px 20px 5px 5px;
 }
 
 .img1-div {

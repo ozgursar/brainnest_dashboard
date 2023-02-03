@@ -1,12 +1,13 @@
 .sidebar {
-  /* background-color: #0c3f02; */
+  position: fixed;
+  top: 25px;
   display: grid;
   grid-template-rows: 1fr;
 }
 
 .sidebar ul {
   list-style: none;
-  margin-top: 32px;
+  margin-bottom: 40px;
   padding-left: 12px;
 }
 
@@ -57,7 +58,7 @@
 .theme_selector {
   display: grid;
   width: 77%;
-  margin: 20px;
+  margin: 0 20px 20px 20px;
 }
 
 #theme_options {
