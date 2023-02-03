@@ -53,3 +53,19 @@
 .sidebar a:hover {
   background-color: #d39700;
 }
+
+.theme_selector {
+  display: grid;
+  width: 77%;
+  margin: 20px;
+}
+
+#theme_options {
+  padding: 5px;
+  font-size: 1.1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
