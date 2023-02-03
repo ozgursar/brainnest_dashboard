@@ -1,10 +1,9 @@
 @import "style-icons.css";
 @import "style-aside.css";
 @import "style-header.css";
-@import "style-content.css";
+@import "style-widgets-projects.css";
 @import "style-widgets-trending.css";
 @import "style-widgets-announcements.css";
-@import "style-widgets-projects.css";
 
 @font-face {
   font-family: 'Montserrat';
@@ -63,4 +62,17 @@ body {
   grid-area: main;
   background-color: var(--main-background);
   padding: 15px;
+  display: grid;
+  grid-template-columns: minmax(480px, auto) 280px;
+  gap: 20px;
+  grid-template-areas:
+    "projects announcements"
+    "projects trending";
+}
+
+#main h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
