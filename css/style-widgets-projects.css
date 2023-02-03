@@ -3,6 +3,11 @@
   padding: 15px;
 }
 
+#content-sidebar {
+  grid-area: content-sidebar;
+  padding: 15px;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,7 +23,7 @@
   padding: 20px; 
   border-radius: 5px;
   box-shadow: 3px 3px #ddd;
-  border-left: 8px solid #F0B429;
+  border-left: 8px solid var( --accent);
 }
 
 .project h4 {
@@ -46,5 +51,9 @@
 }
 
 .project-footer a:hover {
-  color: #F0B429;
+  color: var(--accent);
+}
+
+#projects h2{
+  color: var(--projets-title);
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="original">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,9 @@
   <script src="./js/script.js" defer></script>
   <title>Dashboard</title>
 </head>
+
 <body>
   <header id="header">
-    <!-- Topbar (Search, notifications, avatar and user name lastname) -->
-    <!-- Bottom bar (Avatar, name, new - upload - share buttons) -->
-    <!-- Must have grid layout -->
     <div class="header-container">
       <div class="top-bar">
         <div class="img1-div">
@@ -34,7 +33,7 @@
       </div>
       <div class="bottom-bar">
         <div class="img3-bb-div">
-          <img src="./images/Red Gradient Profile Photo Instagram Post.svg" height="60px" alt="profile-picture">
+          <img src="./images/Red Gradient Profile Photo Instagram Post.svg" height="90px" alt="profile-picture">
         </div>
         <div class="username-bb-div">
           <div>
@@ -53,163 +52,189 @@
     </div>
   </header>
   <aside id="aside">
-    <nav>
-      <!-- Navigation icons and links here -->
-      <!-- Must have grid layout -->
-      <div class="sidebar">
-        <h1 class="sidebar-title">
-          <span class="icon icon-dashboard"></span>
-          Dashboard
-        </h1>
-        <ul class="sidebar-list">
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-home"></span>
-              Home
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-profile"></span>
-              Profile
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-message"></span>
-              Messages
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-history"></span>
-              History
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-projects"></span>
-              Projects
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-communities"></span>
-              Community
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-settings"></span>
-              Settings
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-support"></span>
-              Support
-            </button>
-          </li>
-          <li class="sidebar-item">
-            <button class="sidebar-button">
-              <span class="icon icon-privacy"></span>
-              Privacy
-            </button>
-          </li>
-        </ul>
-      </div>            
+    <nav class="sidebar">
+      <h2 class="sidebar-title">
+        <span class="icon icon-dashboard"></span>
+        Dashboard
+      </h2>
+      <ul class="sidebar-list">
+        <li class="sidebar-item">
+          <a href="./" class="sidebar-button">
+            <span class="icon icon-home"></span>
+            Home
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-profile"></span>
+            Profile
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-message"></span>
+            Messages
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-history"></span>
+            History
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-tasks"></span>
+            Tasks
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-communities"></span>
+            Communities
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-settings"></span>
+            Settings
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-support"></span>
+            Support
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-button">
+            <span class="icon icon-privacy"></span>
+            Privacy
+          </a>
+        </li>
+      </ul>
     </nav>
+    <form class="theme_selector">
+      <label for="theme_options">Select a theme</label>
+      <select id="theme_options">
+        <option value="original">Original theme</option>
+        <optgroup label="Dark Mode Themes">
+          <option value="theme5">Theme 5</option>
+          <option value="theme2">Theme 2</option>
+          <option value="theme3">Theme 3</option>
+          <option value="theme4">Theme 4</option>
+        </optgroup>
+        <optgroup label="Light Mode Themes">
+          <option value="theme1">Theme 1</option>          
+          <option value="theme6">Theme 6</option>
+          <option value="theme7">Theme 7</option>
+          <option value="theme8">Theme 8</option>
+        </optgroup>
+      </select>
+    </form>
   </aside>
   <main id="main">
-      <!-- Projects, announcements, trending widgets -->
-      <!-- Must have grid layout -->
-      <section id="projects">
-        <h2>Your Projects</h2>
-        <div class="projects-container">
-          <article class="project">
-            <div class="project-content">
-              <h4>Super Cool Project</h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ex nulla ipsam corporis tempore expedita possimus suscipit perspiciatis? Eius nihil ut explicabo porro voluptatem repudiandae nemo cum aliquid alias earum.</p>
-            </div>
-            <div class="project-footer">
-              <a href="#"><i class="icon-star"></i></a>
-              <a href="#"><i class="icon-eye"></i></a>
-              <a href="#"><i class="icon-branch"></i></a>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project-content">
-              <h4>Less Cool Project</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat a at consectetur consequuntur obcaecati dignissimos esse ipsam voluptatem, inventore et deserunt placeat labore assumenda iure mollitia nulla unde repudiandae quo!</p>
-            </div>
-            <div class="project-footer">
-              <a href="#"><i class="icon-star"></i></a>
-              <a href="#"><i class="icon-eye"></i></a>
-              <a href="#"><i class="icon-branch"></i></a>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project-content">
-              <h4>Impossible App</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laboriosam. Excepturi id, velit nam doloremque voluptas.</p>
-            </div>
-            <div class="project-footer">
-              <a href="#"><i class="icon-star"></i></a>
-              <a href="#"><i class="icon-eye"></i></a>
-              <a href="#"><i class="icon-branch"></i></a>
-            </div>
-          </article>
-          <article class="project">
-            <div class=""project-content>
-              <h4>Easy Peasy App</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laboriosam. Excepturi id, velit nam doloremque voluptas.</p>
-            </div>
-            <div class="project-footer">
-              <a href="#"><i class="icon-star"></i></a>
-              <a href="#"><i class="icon-eye"></i></a>
-              <a href="#"><i class="icon-branch"></i></a>
-            </div>
-          </article>
-          <article class="project">
-            <div class=""project-content>
-              <h4>Ad Blocker</h4>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, corrupti? Consequuntur accusamus quas, quae optio doloribus similique illo blanditiis ut earum eos excepturi officiis aliquid iusto neque id! Ducimus, explicabo.</p>
-            </div>
-            <div class="project-footer">
-              <a href="#"><i class="icon-star"></i></a>
-              <a href="#"><i class="icon-eye"></i></a>
-              <a href="#"><i class="icon-branch"></i></a>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project-content">
-              <h4>Money Maker</h4>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eos nobis voluptas voluptate eius ea! Dignissimos laboriosam sint voluptate perspiciatis eius ad, harum unde consequatur aperiam possimus quaerat nam doloribus.</p>
-            </div>
-            <div class="project-footer">
-              <a href="#"><i class="icon-star"></i></a>
-              <a href="#"><i class="icon-eye"></i></a>
-              <a href="#"><i class="icon-branch"></i></a>
-            </div>
-          </article>
-        </div>
-      </section>
+    <section id="projects">
+      <h2>Your Projects</h2>
+      <div class="projects-container">
+        <article class="project">
+          <div class="project-content">
+            <h4>Super Cool Project</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ex nulla ipsam corporis tempore expedita
+              possimus suscipit perspiciatis? Eius nihil ut explicabo porro voluptatem repudiandae nemo cum aliquid
+              alias earum.</p>
+          </div>
+          <div class="project-footer">
+            <a href="#"><i class="icon-star"></i></a>
+            <a href="#"><i class="icon-eye"></i></a>
+            <a href="#"><i class="icon-branch"></i></a>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-content">
+            <h4>Less Cool Project</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat a at consectetur consequuntur obcaecati
+              dignissimos esse ipsam voluptatem, inventore et deserunt placeat labore assumenda iure mollitia nulla unde
+              repudiandae quo!</p>
+          </div>
+          <div class="project-footer">
+            <a href="#"><i class="icon-star"></i></a>
+            <a href="#"><i class="icon-eye"></i></a>
+            <a href="#"><i class="icon-branch"></i></a>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-content">
+            <h4>Impossible App</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laboriosam. Excepturi id, velit nam
+              doloremque voluptas.</p>
+          </div>
+          <div class="project-footer">
+            <a href="#"><i class="icon-star"></i></a>
+            <a href="#"><i class="icon-eye"></i></a>
+            <a href="#"><i class="icon-branch"></i></a>
+          </div>
+        </article>
+        <article class="project">
+          <div class="" project-content>
+            <h4>Easy Peasy App</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, laboriosam. Excepturi id, velit nam
+              doloremque voluptas.</p>
+          </div>
+          <div class="project-footer">
+            <a href="#"><i class="icon-star"></i></a>
+            <a href="#"><i class="icon-eye"></i></a>
+            <a href="#"><i class="icon-branch"></i></a>
+          </div>
+        </article>
+        <article class="project">
+          <div class="" project-content>
+            <h4>Ad Blocker</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, corrupti? Consequuntur accusamus quas,
+              quae optio doloribus similique illo blanditiis ut earum eos excepturi officiis aliquid iusto neque id!
+              Ducimus, explicabo.</p>
+          </div>
+          <div class="project-footer">
+            <a href="#"><i class="icon-star"></i></a>
+            <a href="#"><i class="icon-eye"></i></a>
+            <a href="#"><i class="icon-branch"></i></a>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-content">
+            <h4>Money Maker</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit eos nobis voluptas voluptate eius ea!
+              Dignissimos laboriosam sint voluptate perspiciatis eius ad, harum unde consequatur aperiam possimus
+              quaerat nam doloribus.</p>
+          </div>
+          <div class="project-footer">
+            <a href="#"><i class="icon-star"></i></a>
+            <a href="#"><i class="icon-eye"></i></a>
+            <a href="#"><i class="icon-branch"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="content-sidebar">
       <section id="announcements">
         <h2>Announcements</h2>
         <div id="announcements_r">
           <div class="announcemnts_1">
             <h4>Site Maintenance</h4>
             <p>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros...</p>
-            <hr/>
+            <hr />
           </div>
           <div class="announcemnts_1">
             <h4>Community Share Day</h4>
             <p>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros ...</p>
-            <hr/>
+            <hr />
           </div>
           <div class="announcemnts_1">
             <h4>Update Privacy Policy</h4>
-            <p>Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Interessantiss quisso ...</p>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Interessantiss quisso
+              ...</p>
           </div>
         </div>
       </section>
@@ -218,7 +243,8 @@
         <div id="trending_r_c">
           <div class="trending_1">
             <div class="trending_1_img">
-              <img src="./images/Red Gradient Profile Photo Instagram Post (1).svg" alt="Image of a brown bear avatar with a yellow belly.">
+              <img src="./images/Red Gradient Profile Photo Instagram Post (1).svg"
+                alt="Image of a brown bear avatar with a yellow belly.">
             </div>
             <div class="trending_1_txt">
               <span>@tegan</span>
@@ -227,7 +253,8 @@
           </div>
           <div class="trending_1">
             <div class="trending_1_img">
-              <img src="./images/Red Gradient Profile Photo Instagram Post (2).svg"  alt="Image of a penguin avatar with a green scarf.">
+              <img src="./images/Red Gradient Profile Photo Instagram Post (2).svg"
+                alt="Image of a penguin avatar with a green scarf.">
             </div>
             <div class="trending_1_txt">
               <span>@morgan</span>
@@ -236,7 +263,8 @@
           </div>
           <div class="trending_1">
             <div class="trending_1_img">
-              <img src="./images/Red Gradient Profile Photo Instagram Post (3).svg"  alt="Image of a puppy with a red heart.">
+              <img src="./images/Red Gradient Profile Photo Instagram Post (3).svg"
+                alt="Image of a puppy with a red heart.">
             </div>
             <div class="trending_1_txt">
               <span>@kendall</span>
@@ -245,15 +273,16 @@
           </div>
           <div class="trending_1">
             <div class="trending_1_img">
-              <img src="./images/Red Gradient Profile Photo Instagram Post (4).svg"  alt="Image of a yellow bear avatar.">
+              <img src="./images/Red Gradient Profile Photo Instagram Post (4).svg" alt="Image of a yellow bear avatar.">
             </div>
             <div class="trending_1_txt">
               <span>@alex</span>
               <span>No Traffic Maker</span>
             </div>
-          </div>  
+          </div>
         </div>
       </section>
+    </section>
   </main>
 </body>
 </html>
