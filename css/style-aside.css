@@ -1,24 +1,30 @@
 .sidebar {
-  background-color: #fff;
+  background-color: #FFF;
   display: grid;
   grid-template-rows: 1fr;
+  border-radius: 30px;
 }
 
 .sidebar-title {
-  color: #1992D4;
+  color: #106804;
   font-size: 20px;
+  font-display: bold;
   margin: 1fr;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  align-self: center;
 }
 
 .sidebar button {
   display: grid;
   grid-template-columns: 30px 0.1fr auto;
   border-radius: 30px;
-  width: 80%;
+  width: 77%;
   border: none;
   padding: 10px;
-  background-color: #1992D4;
-  color: #fff;
+  background-color: #FFB703;
+  color: #106804;
   font-weight: 200;
   font-size: 15px;
   cursor: pointer;
@@ -26,5 +32,5 @@
 }
 
 .sidebar button:hover {
-  background-color: #0873ad;
+  background-color: #d39700;
 }
