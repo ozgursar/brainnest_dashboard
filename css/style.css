@@ -244,7 +244,7 @@ body {
 
 @media (max-width: 1080px) {
   body {
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 88px 1fr;
   }
 
   span.nav-item-text, .theme_selector, .img3-bb-div, .username-bb-div {
