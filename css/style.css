@@ -277,8 +277,21 @@ body {
 }
 
 @media (max-width: 579px) {
+  
+  #main {
+    padding: 0;
+  }
+
+  .header-container {
+    padding: 0 10px 0 0 ;
+}
+  
   .top-bar {
     grid-template-columns: 40px auto 40px 60px;
+  }
+
+  .blue-btn {
+    width: 70px;
   }
 
   .username-div {
