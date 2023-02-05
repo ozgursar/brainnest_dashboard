@@ -4,11 +4,6 @@
   background-color: var(--header-background);
   padding: 15px;
   box-shadow: 1px 3px 3px #ccc;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 280px;
-  z-index: 9;
 }
 
 .top-bar {
@@ -59,7 +54,7 @@
   background-color: var(--accent-button);
   color: var( --accent-button-text-color);
   font-weight: bold;
-  margin: 0 20px;
+  margin: 0 1vw;
   cursor: pointer;
 }
 

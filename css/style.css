@@ -239,3 +239,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 1080px) {
+  body {
+    grid-template-columns: 80px 1fr;
+  }
+
+  span.nav-item-text, .theme_selector, .img3-div, .username-bb-div {
+    display: none;
+  }
+
+  .sidebar a {
+    width: 20px;
+  }
+ 
+}
