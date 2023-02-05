@@ -278,12 +278,8 @@ body {
 
 @media (max-width: 579px) {
   
-  #main {
-    padding: 0;
-  }
-
-  .header-container {
-    padding: 0 5px ;
+  .header-container, .projects-container {
+    padding-left: 0 ;
 }
   
   .top-bar {
