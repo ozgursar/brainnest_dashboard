@@ -247,12 +247,41 @@ body {
     grid-template-columns: 80px 1fr;
   }
 
-  span.nav-item-text, .theme_selector, .img3-div, .username-bb-div {
+  span.nav-item-text, .theme_selector, .img3-bb-div, .username-bb-div {
     display: none;
   }
 
   .sidebar a {
     width: 20px;
   }
- 
+
+  .top-bar {
+    grid-template-columns: 40px auto 40px 60px auto;
+  }
+
+  .bottom-bar {
+    grid-template-columns: 1fr;
+  }
+
+  .buttons-div {
+    justify-content: space-evenly;
+  }
+
+  #main {
+    grid-template-columns: auto;
+    grid-template-areas:
+    "projects"
+    "content-sidebar";
+  }
+  
+}
+
+@media (max-width: 579px) {
+  .top-bar {
+    grid-template-columns: 40px auto 40px 60px;
+  }
+
+  .username-div {
+    display: none;
+  }
 }
